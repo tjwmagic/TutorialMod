@@ -1,6 +1,9 @@
-package tjwmagic.tutorialmod;
+package tjwmagic.tutorialmod.util;
 
 import org.apache.logging.log4j.Logger;
+
+import tjwmagic.tutorialmod.Reference;
+
 import org.apache.logging.log4j.LogManager;
 
 public class Utils {

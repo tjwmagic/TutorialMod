@@ -6,7 +6,9 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import tjwmagic.tutorialmod.init.ModItems;
 import tjwmagic.tutorialmod.proxy.CommonProxy;
+import tjwmagic.tutorialmod.util.Utils;
 
 @Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
 public class TutorialMod {
@@ -20,6 +22,8 @@ public class TutorialMod {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		Utils.getLogger().info("Pre Initalized");
+		ModItems.init();
+		ModItems.register();
 		
 		proxy.registerRenders();
 	}
