@@ -1,0 +1,16 @@
+[
+{
+  "modid": "tutorialmod",
+  "name": "Tutorial Mod",
+  "description": "tjwmagic learning to mod",
+  "version": "0.01",
+  "mcversion": "1.10.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["tjwmagic"],
+  "credits": "tjwmagic, CJMinecraft for tutorial",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
